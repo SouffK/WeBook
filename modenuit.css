@@ -1,0 +1,77 @@
+body {
+    /*background-color: #333;*/
+    /*background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(125,130,144,1) 35%, rgba(0,0,0,1) 100%);     color: #fff;*/
+    background-image: radial-gradient(circle, #2e3034, #2b2e34, #292d33, #262b33, #232a32);
+}
+
+header{
+    position : absolute;
+    top : 0;
+    left : 0;
+    width : 100%;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 15px 100px;
+    z-index: 10;
+    /*background-color: #696969;*/
+    background-image: radial-gradient(circle, #2e3034, #2b2e34, #292d33, #262b33, #232a32);
+    /*background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(125,130,144,1) 35%, rgba(0,0,0,1) 100%);     */
+    position: sticky;
+    margin-bottom: 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+}
+
+a {
+    color: #ffa;
+}
+
+.book-card .details {
+    background-color: #333;
+    padding: 10px;
+}
+
+footer{
+    /*background-color: #696969;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(125,130,144,1) 35%, rgba(0,0,0,1) 100%); */
+    background-image: radial-gradient(circle, #2e3034, #2b2e34, #292d33, #262b33, #232a32);
+  }
+
+/*  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 500px;
+    margin-top: 30px;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  a:hover {
+    color: white;
+  }*/
+  
+  /* Style de la liste de livres */
+  
+.infolivre{
+    color : white;
+}
+
+.AfficheLivre{
+    border-style: inset;
+    margin: 15%;
+}
